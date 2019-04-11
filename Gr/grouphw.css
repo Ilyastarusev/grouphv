@@ -1,0 +1,50 @@
+*{
+	margin: 0px;
+}
+.columns {
+    line-height: 1.5; 
+    display: flex; 
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.columns div {
+    padding: 15px;
+}
+.left {
+    order: 1;
+    width: 25%;
+    background: rgb(255, 194, 250);
+}
+.main {
+    order: 2;
+    width: 40%;
+    background: rgb(177, 171, 255);
+   }
+.right {
+    order: 3;
+    width: 25%;
+    background: rgb(238, 255, 160)
+}
+.nav {
+    margin: 0;
+    background: rgb(135, 255, 151);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+    font-style: italic;
+}
+a {
+    margin: 40px;
+}
+.ilya{
+	order: 4;
+	width: 100%;
+	height: auto;
+	background-color: #F45C5C;
+	text-align: center;
+}
+.ilya a{
+	text-decoration: none;
+	font-size: 17px;
+}
